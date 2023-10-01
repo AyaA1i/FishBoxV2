@@ -89,7 +89,6 @@ nav {
 /*Section 1*/
 .section1 {
   background-color: #fff;
-  margin-bottom: 100px;
   height: 100vh;
   box-sizing: border-box;
 }
@@ -164,38 +163,38 @@ nav {
 
 /*Section 2*/
 .section2 {
-  background-color: #fff;
+  height: 100vh;
 }
 .section2-title {
   font-size: 35px;
   text-align: center;
-  color: #34a0a4;
+  color: #2d9ca0;
   font-weight: bold;
   margin-bottom: 70px;
-  margin-top: 120px;
+  padding-top: 130px;
 }
 .section2-row1 {
   overflow: auto;
-  width: 70%;
+  width: 60%;
   margin: auto;
   margin-bottom: 50px;
 }
 .section2-row2 {
   overflow: auto;
-  width: 70%;
+  width: 60%;
   margin: auto;
 }
 .section2-item-r1 {
-  width: 21.25%;
+  width: 30%;
   float: left;
   text-align: center;
   margin-right: 5%;
 }
 .section2-item-r2 {
-  width: 32%;
+  width: 30%;
   float: left;
   text-align: center;
-  margin-right: 2%;
+  margin-right: 5%;
 }
 .section2-item-r1 img,
 .section2-item-r2 img {
@@ -206,7 +205,81 @@ nav {
   font-weight: bold;
   color: #000;
 }
-.section2-box3,
-.section2-box4 {
+.section2-box3 {
   margin-right: 0;
+}
+
+/*Section 3*/
+.section3 {
+  background-color: rgba(196, 196, 196, 0.495);
+  height: 100vh;
+  margin: auto;
+}
+.section3-title {
+  font-size: 35px;
+  text-align: center;
+  color: #2d9ca0;
+  font-weight: bold;
+  margin-bottom: 70px;
+  padding-top: 110px;
+}
+.section3-overlay {
+  display: none;
+  height: 100%;
+}
+.section3-overlay p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 100%;
+  color: #003647;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  animation: 1s anim-lineUp ease-out;
+  opacity: 0;
+}
+.section3-row1 {
+  width: 60%;
+  overflow: auto;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.section3-row2 {
+  width: 60%;
+  overflow: auto;
+  margin: auto;
+}
+.section3-item-r1 {
+  position: relative;
+  float: left;
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  background-color: #bfbfbf;
+}
+.section3-item-r2 {
+  position: relative;
+  float: left;
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  background-color: #bfbfbf;
+}
+.section3-item-r2-box1 {
+  margin-left: 17.5%;
+}
+.section3-item-r1-box3,
+.section3-item-r2-box2 {
+  margin-right: 0;
+}
+.section3-item-r1:hover .section3-overlay,
+.section3-item-r2:hover .section3-overlay {
+  display: block;
+}
+.section3-item-r1:hover .section3-overlay p,
+.section3-item-r2:hover .section3-overlay p {
+  opacity: 1;
 }
