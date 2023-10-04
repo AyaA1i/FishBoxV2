@@ -45,7 +45,7 @@
     transition: 0.6s;
 }
 .part1 .part1-p2 a:hover{
-    color:#003262;
+    color:#bf5025;
 }
 /* -------------part2----------- */
 .part2-container{
@@ -107,7 +107,7 @@
     font-family: "Caveat", cursive;
     font-style: italic;
     font-size: 13px;
-    color:#003262;
+    color:#bf5025;
     text-align: center;
     margin: 10px;
 }
@@ -137,7 +137,7 @@
     border-color: #8bb4cd;
 }
 .part3-box1 input:focus , .part3-box2 input:focus{
-    border-color:#003262;
+    border-color:#bf5025;
 }
 .part3-btn button:hover{
     background-color: #8bb4cd;
