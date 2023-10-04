@@ -14,7 +14,7 @@
   z-index: 30;
 }
 nav {
-  background-color: #012a4a;
+  background-color: #001a2e;
   opacity: 0.888;
   position: fixed;
   width: 100%;
@@ -177,7 +177,7 @@ nav {
     font-family: "Caveat", cursive;
     font-style: italic;
     font-size: 13px;
-    color:#003262;
+    color:#bf5025;
     text-align: center;
     margin: 10px;
 }
@@ -210,7 +210,7 @@ nav {
   border-color: #8bb4cd;
 }
 .part3-box1 input:focus , .part3-box2 input:focus{
-    border-color:#003262;
+    border-color:#bf5025;
 }
 .part3-btn button:hover {
   background-color: #8bb4cd;
