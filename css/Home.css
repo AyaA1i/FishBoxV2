@@ -59,6 +59,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+button {
+  transition: 0.7s;
+}
 body {
   background-color: #fff;
   font-family: Montserrat;
@@ -188,14 +191,14 @@ nav {
 
 /*Section 2*/
 .section2 {
-  height: 100vh;
+  height: 70vh;
 }
 .section2-title {
   font-size: 35px;
   text-align: center;
   color: #e94e46;
-  margin-bottom: 70px;
-  padding-top: 130px;
+  margin-bottom: 50px;
+  padding-top: 60px;
 }
 .section2-row {
   overflow: auto;
@@ -224,12 +227,12 @@ nav {
 
 /*Section 3*/
 .section3 {
+  height: 90vh;
   margin: auto;
   background-color: #e0e5e9ac;
 }
 .section3-content {
   width: 75%;
-  height: 100vh;
   margin: auto;
   overflow: auto;
 }
@@ -240,7 +243,7 @@ nav {
   background-image: url("../media/map_bg.jpg");
 }
 .section3-subtitle {
-  padding-top: 110px;
+  padding-top: 60px;
   font-family: Caveat;
   font-size: 25px;
   color: #012a4a;
@@ -250,7 +253,7 @@ nav {
   font-size: 35px;
   text-align: center;
   color: #e94e46;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .section3-col1-p1 {
   font-size: 25px;
@@ -291,7 +294,7 @@ nav {
 
 /*Section 4*/
 .section4 {
-  height: 100vh;
+  height: 90vh;
   margin: auto;
 }
 .section4-title {
@@ -299,7 +302,7 @@ nav {
   text-align: center;
   color: #e94e46;
   margin-bottom: 50px;
-  padding-top: 110px;
+  padding-top: 55px;
 }
 .section4-overlay {
   height: 100%;
@@ -365,7 +368,7 @@ nav {
 
 /*Section 5*/
 .section5 {
-  height: 100vh;
+  height: 90vh;
   margin: auto;
   background-color: #e0e5e9ac;
 }
@@ -373,8 +376,8 @@ nav {
   font-size: 35px;
   text-align: center;
   color: #e94e46;
-  margin-bottom: 50px;
-  padding-top: 110px;
+  margin-bottom: 40px;
+  padding-top: 55px;
 }
 .section5-slider {
   width: 80%;
@@ -423,67 +426,115 @@ nav {
 
 /*Section 6*/
 .section6 {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #cad3dba4;
+}
+.section6-title {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #012a4a;
+}
+.section6-offers {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.section6-offer {
+  color: #e94e46;
+  margin-left: 20px;
+  font-style: italic;
+  display: inline;
+  margin-right: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+.section6-btn {
+  width: 110px;
+  margin: auto;
+}
+.section6-btn button {
+  width: 110px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: #e94e46;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  font-family: Montserrat;
+  margin: auto;
+}
+.section6-btn button:hover {
+  background-color: transparent;
+  border: 1px solid #012a4a;
+  color: #012a4a;
+}
+
+/*Section 7*/
+.section7 {
   height: 60vh;
   background-color: #001a2ee5;
   overflow: auto;
   padding-top: 50px;
   padding-left: 50px;
-  margin-top: 100px;
 }
-.section6-col1,
-.section6-col2,
-.section6-col3,
-.section6-col4,
-.section6-col5 {
+.section7-col1,
+.section7-col2,
+.section7-col3,
+.section7-col4,
+.section7-col5 {
   float: left;
   margin-right: 7%;
 }
-.section6-col1-p1 {
+.section7-col1-p1 {
   font-weight: 900;
   color: #e94e46;
   font-size: 20px;
   letter-spacing: 5px;
   margin-bottom: 8px;
 }
-.section6-col1-p2 {
+.section7-col1-p2 {
   color: #cad3db;
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 25px;
   width: 300px;
 }
-.section6-col1-img {
+.section7-col1-img {
   border-radius: 50%;
   width: 100px;
   height: 100px;
 }
-.section6-col2-p1,
-.section6-col3-p1,
-.section6-col4-p1,
-.section6-col5-p1 {
+.section7-col2-p1,
+.section7-col3-p1,
+.section7-col4-p1,
+.section7-col5-p1 {
   color: #e94e46;
   font-size: 18px;
   letter-spacing: 1px;
   margin-bottom: 8px;
 }
-.section6-col2-links,
-.section6-col3-links,
-.section6-col4-links {
+.section7-col2-links,
+.section7-col3-links,
+.section7-col4-links {
   display: block;
   text-decoration: none;
   color: #cad3db;
   line-height: 27px;
   font-size: 15px;
 }
-.section6-col2-links:hover,
-.section6-col3-links:hover,
-.section6-col4-links:hover {
+.section7-col2-links:hover,
+.section7-col3-links:hover,
+.section7-col4-links:hover {
   color: #8cb4cd;
 }
-.section6-col5 {
+.section7-col5 {
   overflow: auto;
 }
-.section6-col5-icon {
+.section7-col5-icon {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -492,13 +543,13 @@ nav {
   margin-right: 10px;
   text-align: center;
 }
-.section6-col5 {
+.section7-col5 {
   margin-right: 0;
 }
-.section6-col5-links {
+.section7-col5-links {
   text-decoration: none;
 }
-.section6-col5-links i {
+.section7-col5-links i {
   font-size: 25px;
 
   line-height: 40px;
