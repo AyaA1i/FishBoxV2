@@ -122,30 +122,30 @@ nav {
   color: #bf5025;
 }
 /* -------------part2----------- */
-.part2-container{
-    width: 100%;
-    margin: 100px 0px;
+.part2-container {
+  width: 100%;
+  margin: 100px 0px;
 }
-.part2{
-    width: 80%;
-    overflow: auto;
-    margin: auto;
+.part2 {
+  width: 80%;
+  overflow: auto;
+  margin: auto;
 }
-.part2-content{
-    float: left;
-    position: relative;
-    width: 22%;
-    height: 318px;
-    margin-right: 4%;
-    cursor: pointer;
+.part2-content {
+  float: left;
+  position: relative;
+  width: 22%;
+  height: 318px;
+  margin-right: 4%;
+  cursor: pointer;
 }
-.part2 .last{
+.part2 .last {
   margin-right: 0;
 }
-.part2-content-img img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
+.part2-content-img img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .part2-content-txt {
   position: absolute;
@@ -162,14 +162,14 @@ nav {
   margin: 10px;
 }
 .part2-overlay {
-    width: 100%;
-    height: 100%;
-    display: none;
-    background-color: #a9d6e5;
-    opacity: 0.6;
-    position: absolute;
-    z-index: 2; 
-    transition: 0.5s;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: #a9d6e5;
+  opacity: 0.6;
+  position: absolute;
+  z-index: 2;
+  transition: 0.5s;
 }
 .part2-content:hover .part2-overlay {
   display: block;
@@ -178,12 +178,9 @@ nav {
 /* ---------part3---------- */
 .part3-container {
   width: 100%;
-  height: 600px;
+  height: 85vh;
 }
-.part3 {
-  overflow: auto;
-}
-.part3-txt1 p {
+.part3-txt1 {
   font-family: Caveat;
 }
 .part3-txt1 {
@@ -199,32 +196,37 @@ nav {
   margin-left: 100px;
   margin-bottom: 30px;
 }
-.part3-img{
-  float: right;
-  margin-right: 90px;
-}
-.part3-img img {
-  height: 400px;
-  width: 500px;
-}
 .part3-content {
-    float:right;
-    background-image: url(../media/map_bg.jpg);
-    width: 650px;
-    height: 400px;
-    color: white;
-    text-align: left;
-    margin-left: 100px;
-  }
-  .part3-p2 p {
-    text-align: left;
-    margin: 30px 80px;
-  }
-  .part3-p1 p {
-    font-size: 30px;
-    padding-top: 60px;
-    margin: 0px 80px;
-  }
+  width: 80%;
+  height: 400px;
+  overflow: auto;
+  margin: auto;
+  background-color: #bf5025;
+}
+.part3-img {
+  float: left;
+  height: 100%;
+  width: 50%;
+  background-image: url("../media/team.jpg");
+  background-size: cover;
+}
+.part3-item {
+  float: left;
+  background-image: url(../media/map_bg.jpg);
+  width: 50%;
+  height: 100%;
+  color: white;
+  text-align: left;
+}
+.part3-p2 {
+  text-align: left;
+  margin: 30px 80px;
+}
+.part3-p1 {
+  font-size: 30px;
+  padding-top: 60px;
+  margin: 0px 80px;
+}
 /* ---------part4---------- */
 .part4-container {
   width: 100%;
