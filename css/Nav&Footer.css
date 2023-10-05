@@ -1,0 +1,143 @@
+nav {
+  background-color: #001a2e;
+  opacity: 0.888;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  z-index: 30;
+  left: 0;
+  top: 0;
+}
+.logo {
+  float: left;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.nav-links {
+  float: right;
+  margin-bottom: 20px;
+}
+.nav-list {
+  list-style-type: none;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.nav-list a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.nav-list a li {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.nav-list .nav-link li::after {
+  position: absolute;
+  content: "";
+
+  top: 20px;
+  left: 0;
+
+  height: 2px;
+  width: 0px;
+
+  background-color: #a9d6e5;
+  opacity: 0.3;
+  transition: 0.5s;
+}
+.nav-list .nav-link li:hover::after {
+  opacity: 1;
+  width: 100%;
+}
+.profile-i {
+  margin-left: 40px;
+  margin-right: 17px;
+}
+.cart-i {
+  margin-right: 18px;
+}
+
+.footer {
+  height: 60vh;
+  background-color: #001a2ee5;
+  overflow: auto;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.footer-col1,
+.footer-col2,
+.footer-col3,
+.footer-col4,
+.footer-col5 {
+  float: left;
+  margin-right: 7%;
+}
+.footer-col1-p1 {
+  font-weight: 900;
+  color: #e94e46;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-bottom: 8px;
+}
+.footer-col1-p2 {
+  color: #cad3db;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 25px;
+  width: 300px;
+}
+.footer-col1-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.footer-col2-p1,
+.footer-col3-p1,
+.footer-col4-p1,
+.footer-col5-p1 {
+  color: #e94e46;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+.footer-col2-links,
+.footer-col3-links,
+.footer-col4-links {
+  display: block;
+  text-decoration: none;
+  color: #cad3db;
+  line-height: 27px;
+  font-size: 15px;
+}
+.footer-col2-links:hover,
+.footer-col3-links:hover,
+.footer-col4-links:hover {
+  color: #8cb4cd;
+}
+.footer-col5 {
+  overflow: auto;
+}
+.footer-col5-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #a9d6e5;
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+}
+.footer-col5 {
+  margin-right: 0;
+}
+.footer-col5-links {
+  text-decoration: none;
+}
+.footer-col5-links i {
+  font-size: 25px;
+  line-height: 40px;
+  color: #2c7da0;
+}
