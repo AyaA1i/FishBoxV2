@@ -129,7 +129,7 @@ body {
 
 /*Section 2*/
 .section2 {
-  height: 70vh;
+  height: 530px;
 }
 .section2-title {
   font-size: 35px;
@@ -165,7 +165,7 @@ body {
 
 /*Section 3*/
 .section3 {
-  height: 90vh;
+  height: 650px;
   margin: auto;
   background-color: #e0e5e9ac;
 }
@@ -232,7 +232,7 @@ body {
 
 /*Section 4*/
 .section4 {
-  height: 90vh;
+  height: 650px;
   margin: auto;
 }
 .section4-title {
@@ -306,7 +306,7 @@ body {
 
 /*Section 5*/
 .section5 {
-  height: 90vh;
+  height: 650px;
   margin: auto;
   background-color: #e0e5e9ac;
 }
