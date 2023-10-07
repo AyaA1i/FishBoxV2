@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="css/all.css" />
     <link rel="stylesheet" href="css/Nav&Footer.css" />
     <link rel="stylesheet" href="css/Signin.css" />
+    <script src="js/Signin.js"></script>
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -78,7 +79,76 @@
         <p class="section2-p3">
           New Customer? <a href="#" class="section2-a1">Sign Up</a>
         </p>
-        <p class="section2-a2"><a href="#">Forgot Password?</a></p>
+        <p class="section2-a2"><a onclick="ShowBox()">Forgot Password?</a></p>
+      </div>
+    </section>
+
+    <!-- Forget Password Section3 -->
+    <section>
+      <div class="section3" id="section3">
+        <div class="section3-overlay1" id="section3-overlay1">
+          <p class="section3-overlay1-p">SMS Verification Code Sent</p>
+          <div>
+            <span class="section3-overlay1-sp">Code &nbsp; &nbsp;</span>
+            <input
+              type="number"
+              maxlength="1"
+              id="input1"
+              class="section3-overlay1-input"
+              oninput="moveToNextInput(this, 'input2')"
+              required
+            /><input
+              type="number"
+              maxlength="1"
+              id="input2"
+              class="section3-overlay1-input"
+              oninput="moveToNextInput(this, 'input3')"
+              required
+            /><input
+              type="number"
+              maxlength="1"
+              id="input3"
+              class="section3-overlay1-input"
+              oninput="moveToNextInput(this, 'input4')"
+              required
+            /><input
+              type="number"
+              maxlength="1"
+              id="input4"
+              class="section3-overlay1-input"
+              required
+            />
+          </div>
+          <button onclick="ResetPass()" class="section3-overlay1-btn">
+            Continue
+          </button>
+        </div>
+        <div class="section3-overlay2" id="section3-overlay2">
+          <p class="section3-overlay2-p">Reset Password</p>
+          <div class="section3-overlay2-input-container">
+            <input
+              type="text"
+              class="section3-overlay2-input"
+              placeholder="New Password"
+              required
+              autofocus
+            />
+            <label class="section3-placeholder">New Password</label>
+          </div>
+          <div class="section3-overlay2-input-container">
+            <input
+              type="text"
+              class="section3-overlay2-input"
+              placeholder="Confirm Password"
+              required
+              autofocus
+            />
+            <label class="section3-placeholder">Confirm Password</label>
+          </div>
+          <button onclick="HideBox()" class="section3-overlay2-btn">
+            Save Password
+          </button>
+        </div>
       </div>
     </section>
 

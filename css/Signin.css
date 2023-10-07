@@ -93,7 +93,6 @@ body {
   margin-bottom: 30px;
 }
 .section2-input-container {
-  float: left;
   height: 50px;
   width: 100%;
   position: relative;
@@ -108,14 +107,7 @@ body {
   border-radius: 3px;
   font-family: Montserrat;
   transition: 0.3s;
-  border: 2px solid rgba(128, 128, 128, 0.212);
-}
-.section2-input2 {
-  margin-right: 0;
-}
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
+  border: 2px solid #80808036;
 }
 .placeholder {
   position: absolute;
@@ -177,4 +169,133 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 .section2-a2 a {
   color: #012a4a;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/*Section 3*/
+.section3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 40;
+}
+.section3-overlay1,
+.section3-overlay2 {
+  background-color: #c2c2c2;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.section3-overlay2 {
+  height: 350px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+.section3-overlay1-input {
+  height: 28px;
+  width: 28px;
+  margin-right: 6px;
+  border: 1px solid #80808036;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 18px;
+  outline: none;
+}
+.section3-overlay1-input:hover {
+  border-color: #012a4a;
+}
+.section3-overlay1-input:focus {
+  border-color: #e94e46;
+}
+.section3-overlay1-p,
+.section3-overlay2-p {
+  font-size: 25px;
+  font-family: Montserrat-Medium;
+  padding-top: 30px;
+  margin-bottom: 35px;
+  color: #012a4a;
+}
+.section3-overlay1-sp {
+  font-family: Montserrat-Medium;
+  font-size: 16px;
+  color: #012a4a;
+}
+.section3-overlay1-btn,
+.section3-overlay2-btn {
+  width: 110px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: #012a4a;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  font-family: Montserrat;
+  margin: auto;
+  margin-top: 30px;
+}
+.section3-overlay2-btn {
+  width: 120px;
+  margin-top: 10px;
+}
+.section3-overlay1-btn:hover,
+.section3-overlay2-btn:hover {
+  background-color: transparent;
+  border: 1px solid #e94e46;
+  color: #e94e46;
+}
+.section3-overlay2-input-container {
+  height: 50px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 16px;
+}
+.section3-overlay2-input {
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 3px;
+  font-family: Montserrat;
+  transition: 0.3s;
+  border: 2px solid #80808036;
+}
+.section3-placeholder {
+  position: absolute;
+  top: 10px;
+  left: 6px;
+  transform: scale(0.8) translateY(-50%);
+  font-size: 12px;
+  color: #001a2e;
+  transition: 0.3s;
+  display: none;
+}
+.section3-overlay2-input:focus + .section3-placeholder {
+  display: block;
+}
+.section3-overlay2-input::placeholder {
+  transition: 0.3s;
+}
+.section3-overlay2-input:focus::placeholder {
+  color: transparent;
+}
+.section3-overlay2-input:hover {
+  border-color: #012a4a;
+}
+.section3-overlay2-input:focus {
+  border-color: #e94e46;
 }
