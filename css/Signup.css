@@ -1,0 +1,189 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../assests/fonts/Montserrat/Montserrat-Regular.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("../assests/fonts/Montserrat/Montserrat-Medium.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: Merriweather;
+  src: url("../assests/fonts/Merriweather/Merriweather-Light.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: Caveat;
+  src: url("../assests/fonts/Caveat/Caveat-Regular.woff2") format("woff2");
+}
+button {
+  transition: 0.7s;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-family: Montserrat;
+  width: 100% 100%;
+  margin: 0;
+}
+
+/*Section 1*/
+.section1 {
+  background-color: #e0e5e9ac;
+  height: 300px;
+  text-align: center;
+}
+.section1-p1 {
+  padding-top: 130px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #e94e46;
+}
+.section1-sp1 {
+  color: #001a2e;
+  transition: 1s;
+  cursor: pointer;
+}
+.section1-sp1:hover {
+  color: #e94e46;
+}
+
+/*Section 2*/
+.section2 {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.section2-line-cont {
+  margin: auto;
+  width: 537px;
+  margin-bottom: 30px;
+}
+.section2-p1 {
+  font-family: Montserrat-Medium;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.section2-line {
+  height: 1px;
+  width: 200px;
+  background-color: #e94e46;
+  text-align: center;
+  display: inline-block;
+}
+.section2-p2 {
+  color: #e94e46;
+  text-align: center;
+  font-style: italic;
+  font-family: Caveat;
+}
+.section2-row1,
+.section2-row2,
+.section2-row3 {
+  margin: auto;
+  width: 40%;
+  overflow: auto;
+  margin-bottom: 30px;
+}
+.section2-input-container {
+  float: left;
+  height: 50px;
+  width: 47.5%;
+  margin-right: 5%;
+  position: relative;
+}
+.section2-input-container3 {
+  height: 50px;
+  width: 47.5%;
+  margin: auto;
+  position: relative;
+}
+.placeholder:hover {
+  cursor: auto;
+}
+.section2-input,
+.section2-input-r3 {
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 3px;
+  font-family: Montserrat;
+  transition: 0.3s;
+  border: 2px solid rgba(128, 128, 128, 0.212);
+}
+.section2-input-r3 {
+  margin-right: 0;
+}
+.section2-input2 {
+  margin-right: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+.placeholder {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  transform: scale(0.8) translateY(-50%);
+  font-size: 12px;
+  color: #001a2e;
+  transition: 0.3s;
+  display: none;
+}
+.section2-input:focus + .placeholder,
+.section2-input-r3:focus + .placeholder {
+  display: block;
+}
+.section2-input::placeholder,
+.section2-input-r3::placeholder {
+  transition: 0.3s;
+}
+.section2-input:focus::placeholder,
+.section2-input-r3:focus::placeholder {
+  color: transparent;
+}
+.section2-input:hover,
+.section2-input-r3:hover {
+  border-color: #012a4a;
+}
+.section2-input:focus,
+.section2-input-r3:focus {
+  border-color: #e94e46;
+}
+.section2-btn-container {
+  margin: auto;
+  width: 110px;
+  margin-bottom: 20px;
+}
+.section2-btn {
+  width: 110px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: #012a4a;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  font-family: Montserrat;
+  margin: auto;
+}
+.section2-btn:hover {
+  background-color: transparent;
+  border: 1px solid #e94e46;
+  color: #e94e46;
+}
+.section2-p3 {
+  text-align: center;
+  font-family: Montserrat-Medium;
+}
+.section2-a1 {
+  color: #012a4a;
+}
