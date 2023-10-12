@@ -4,13 +4,13 @@
     format("woff2");
 }
 @font-face {
-  font-family: Montserrat-Medium;
-  src: url("../assests/fonts/Montserrat/Montserrat-Medium.woff2")
+  font-family: Montserrat;
+  src: url("../assests/fonts/Montserrat/Montserrat-Regular.woff2")
     format("woff2");
 }
 @font-face {
-  font-family: Merriweather;
-  src: url("../assests/fonts/Merriweather/Merriweather-Light.woff2")
+  font-family: Montserrat-Medium;
+  src: url("../assests/fonts/Montserrat/Montserrat-Medium.woff2")
     format("woff2");
 }
 @font-face {
