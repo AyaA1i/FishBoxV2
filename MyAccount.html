@@ -2,6 +2,11 @@
 <html>
   <head>
     <title>Fish Box - My Account</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/all.css" />
     <link rel="stylesheet" href="css/Nav&Footer.css" />
     <link rel="stylesheet" href="css/MyAccount.css" />
@@ -9,22 +14,30 @@
   <body>
     <!-- Navigation Bar -->
     <header>
-      <nav>
-        <p class="logo">FISH BOX</p>
-        <div class="nav-links">
-          <ul class="nav-list">
-            <a href="#" class="nav-link"><li>HOME</li></a>
-            <a href="#" class="nav-link"><li>SHOP</li></a>
-            <a href="#" class="nav-link"><li>ABOUT</li></a>
-            <a href="#" class="nav-link"><li>RECIPES</li></a>
-            <a href="#" class="nav-link"><li>BLOGS</li></a>
-            <a href="#" class="nav-link"><li>CONTACT</li></a>
-            <a href="#"
-              ><li><i class="fa-regular fa-user profile-i"></i></li
-            ></a>
-            <a href="#"
-              ><li><i class="fa-solid fa-cart-shopping cart-i"></i></li
-            ></a>
+      <nav class="navbar navbar-expand-md fixed-top">
+        <a class="navbar-brand" href="#">FISH BOX</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="fa-solid fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ms-auto">
+            <li href="#" class="nav-link nav-line ms-2"><a>HOME</a></li>
+            <li href="#" class="nav-link nav-line ms-2"><a>SHOP</a></li>
+            <li href="#" class="nav-link nav-line ms-2"><a>ABOUT</a></li>
+            <li href="#" class="nav-link nav-line ms-2"><a>RECIPES</a></li>
+            <li href="#" class="nav-link nav-line ms-2"><a>BLOGS</a></li>
+            <li href="#" class="nav-link nav-line ms-2"><a>CONTACT</a></li>
+            <li href="#" class="nav-link ms-2">
+              <a><i class="fa-regular fa-user profile-i"></i></a>
+            </li>
+            <li href="#" class="nav-link ms-2">
+              <a><i class="fa-solid fa-cart-shopping cart-i"></i></a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -152,6 +165,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
 <!-- 
